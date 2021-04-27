@@ -3,26 +3,24 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Homepage</title>
+        <title>Vaibhav Narang</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css\styles.css">
         <link rel="icon" href="images\favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     </head>
-    <body class="body-bg">
+    <body>
         <script src="index.js" async defer></script>
-        <table>
-            <tr>
-                <td>
-                    <a href="https://twitter.com/vaibh_narang">Twitter</a>
-                </td>
-                <td>
-                    <a href="about.html">About me</a>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <center><img src="images\profile_pic.png" alt="Vaibhav's profile pic" class="superhero-img"></img>
-        <h1 class="superhero-name">Hi, I'm Vaibhav.</h1></center>
+        <div class="dashboard">
+            <button type="submit" id="twitter-btn" onclick=twitter()>Twitter</button>
+            <button type="submit" id="about-btn" onclick="about.html">About me</button>
+        </div>
+        <div class="top-block">
+            <center><img src="images\profile_pic.png" alt="Vaibhav's profile pic" class="superhero-img"></img>
+            <h1>Hi, I'm Vaibhav.</h1>
+            <span class="superhero-job">A Programmer.</span></center>
+        </div>
     </body>
 </html>

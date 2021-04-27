@@ -1,14 +1,98 @@
-.superhero-name {
-    color: #fff;
-    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+body{
+    background-image: url('https://64.media.tumblr.com/c0dc89d0f3d362a05687b4283266ca59/tumblr_ox5gb50aew1qeyvpto1_500.gifv');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-family: 'sacramento', cursive;
+}
+.dashboard{
+    background-color: #a162e8;
+    position: fixed;
+    width:100%;
+    height: 8%;
+}
+h1 {
+    color:#c493fc;
+    display: block;
+    font-size: 350%;
+    margin-bottom: 0%;
+}
+.superhero-job {
+    color: #c493fc;
+    display: block;
+    font: thin 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    font-size: 200%;
+    margin: 0 auto;
+    position: relative;
 }
 .superhero-img{
     height: 200px;
     width: 200px;
     margin-top: 100px;
 }
-.body-bg{
-    background-color: black;
-}
+#twitter-btn {
+    background: #d2a4f5;
+    background-image: -webkit-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -moz-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -ms-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -o-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: linear-gradient(to bottom, #d2a4f5, #7a07ab);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    text-shadow: 3px 3px 3px #666666;
+    -webkit-box-shadow: 0px 1px 6px #666666;
+    -moz-box-shadow: 0px 1px 6px #666666;
+    box-shadow: 0px 1px 6px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 10px auto 20px 1250px;
+  }
+  
+#twitter-btn:hover {
+    background: #f0a3ff;
+    background-image: -webkit-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -moz-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -ms-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -o-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: linear-gradient(to bottom, #f0a3ff, #e8befa);
+    text-decoration: none;}
+
+#about-btn {
+    background: #d2a4f5;
+    background-image: -webkit-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -moz-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -ms-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: -o-linear-gradient(top, #d2a4f5, #7a07ab);
+    background-image: linear-gradient(to bottom, #d2a4f5, #7a07ab);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    text-shadow: 3px 3px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px auto 20px 10px;
+  }
+  
+  #about-btn:hover {
+    background: #f0a3ff;
+    background-image: -webkit-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -moz-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -ms-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: -o-linear-gradient(top, #f0a3ff, #e8befa);
+    background-image: linear-gradient(to bottom, #f0a3ff, #e8befa);
+    text-decoration: none;
+  }
+
