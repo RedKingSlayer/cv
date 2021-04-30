@@ -1,5 +1,8 @@
+/* Title section */
+
 #title{
     background-color: #ff8882;
+    color: aliceblue;
 }
 .container-fluid{
     padding: 2% 8% 2% 8%;
@@ -7,7 +10,6 @@
 .hero-name{
     text-align: center;
     font-family: 'Stalemate', cursive;
-    color: aliceblue;
     font-size: 9rem;
     line-height: 1;
     margin-top: 200px;
@@ -15,12 +17,85 @@
 .hero-job{
     text-align: center;
     font-family: 'Scope One', serif;
-    color: aliceblue;
     font-size: 2rem;
     line-height: 1;
     margin-bottom: 200px;
 }
-.popsicle-large{
-    height: 100px;
-    width: 100px;
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.last-left {
+    padding-right: 55rem;
+}
+
+/* Skills section */
+
+#skills {
+    padding: 7% 15%;
+    font-family: 'Merriweather sans', sans-serif;
+}
+
+.skills-heading {
+    text-align: center;
+    padding-top: 5  0px;
+    padding-bottom: 50px;
+    font-size: 5em;
+    font-family: 'Lobster', cursive;
+    color: #ff8882;
+}
+
+.skill-box {
+    text-align: center;
+    padding: auto 7%;
+}
+
+.skill-icon {
+    font-size: 8rem;
+    color: #ff8882;
+    padding: 30px;
+}
+
+.skill-desc {
+    padding: 8%;
+    text-align: center;
+}
+
+/* Projects section */
+
+#projects {
+    background-color: #ff8882;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.projects-heading {
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    padding-bottom: 80px;
+
+}
+
+.project-image-big {
+    height: 400px;
+    width: 400px;
+}
+
+.project-image-small {
+    height: 200px;
+    width: 400px;
+    padding: 5px;
 }
